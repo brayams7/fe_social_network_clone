@@ -1,0 +1,63 @@
+.button_util{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    background: #FDC830;
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);
+    background: linear-gradient(to right, #F37335, #FDC830);
+    transition: color background border 100ms ease-out;
+    -webkit-transition: color background border 100ms ease-out;
+    -moz-transition: color background border 100ms ease-out;
+    -ms-transition: color background border 100ms ease-out;
+    -o-transition: color background border 100ms ease-out;
+}
+
+.button_util:hover{
+    cursor: pointer;
+    color: var(--orange);
+    background: transparent;
+    border: 2px solid var(--orange);
+}
+
+.button_util:disabled{
+    pointer-events: none;
+    background: #c0c0c0;
+}
+
+.custom_input{
+    border: none;
+    outline: none;
+    font-size: 13px;
+    background-color: var(--inputColor);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 15px;
+}
+
+.button_util_6rem{
+    width: 6rem;
+    height: 2rem;
+}
+
+/*Forms*/
+
+.form_label-14{
+    font-size: 14px;
+    color: var(--gray);
+}
+
+/*Quitar el borde de los input y select*/
+
+.quit_border:hover{
+    border-color: 'none' !important;
+}

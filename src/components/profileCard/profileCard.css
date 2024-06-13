@@ -1,0 +1,105 @@
+.profile_card_container{
+    background-color: var(--cardColor);
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    overflow-x: clip;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.profile_card_images{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile_card_images>img:nth-child(1){
+    width: 100%;
+}
+.profile_card_images>img:nth-child(2){
+    width: 6rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    bottom: -3rem;
+    box-shadow: var(--profileShadow);
+}
+
+.profile_card_name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 10px;
+}
+
+.profile_card_name>span:nth-child(1){
+    font-weight: bold;
+}
+
+/*Contenedor de seguidores*/
+.profile_card_follow-status{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+
+}
+
+.profile_card_follow-status > hr{
+    width: 85%;
+    border: 1px solid var(--hrColor);
+
+}
+
+.profile_card_follow-status > div{
+    display: flex;
+    gap: 1rem;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.count_followings{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.count_followings > span:nth-child(1){
+    font-weight: bold;
+}
+
+.count_followings > span:nth-child(2){
+    color: var(--gay);
+    font-size: 13px;
+}
+
+.vl{
+    height: 150%;
+    border-left: 2px solid var(--hrColor);
+
+}
+
+.profile_card_container > span{
+    font-weight: bold;
+    color: orange;
+    align-self: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    
+}
+

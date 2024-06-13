@@ -1,0 +1,25 @@
+.rightSite_container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.nav_icons{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav_icons > img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.button_rs{
+    height: 3rem;
+    width: 80%;
+    align-self: center;
+    
+}
+
